@@ -1,0 +1,37 @@
+#body
+{
+	background-color: rgb(140, 195, 247);
+}
+.card
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div div.card
+{
+
+    border-radius: 1rem;
+    min-width: 12rem;
+    max-width: 20rem;
+    margin:1rem;
+}
+
+div div.card>img{
+    border-radius: 1rem;
+}
+
+
+div.card:hover
+{
+    -webkit-box-shadow: -1px 0px 38px 30px #000000; 
+box-shadow: -1px 0px 38px 30px #000000;
+}
+#img
+{
+    padding: 20px;
+}
+#zanas
+{
+    padding: 75px;
+}
